@@ -2,10 +2,10 @@ C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\bin\Debug\Proyecto_Pers
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\bin\Debug\Proyecto_Personal1.exe
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\bin\Debug\Proyecto_Personal1.pdb
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.csproj.AssemblyReference.cache
-C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.Form1.resources
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.Properties.Resources.resources
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.csproj.GenerateResource.cache
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.csproj.CoreCompileInputs.cache
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.exe
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.pdb
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.Form2.resources
+C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormLogin.resources
