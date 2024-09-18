@@ -48,9 +48,10 @@ namespace Proyecto_Personal1
             this.lblBienvenido.AutoSize = true;
             this.lblBienvenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBienvenido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblBienvenido.Location = new System.Drawing.Point(369, 13);
+            this.lblBienvenido.Location = new System.Drawing.Point(492, 16);
+            this.lblBienvenido.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblBienvenido.Name = "lblBienvenido";
-            this.lblBienvenido.Size = new System.Drawing.Size(195, 33);
+            this.lblBienvenido.Size = new System.Drawing.Size(247, 42);
             this.lblBienvenido.TabIndex = 0;
             this.lblBienvenido.Text = "Bienvenido/a";
             this.lblBienvenido.Click += new System.EventHandler(this.label1_Click);
@@ -60,10 +61,11 @@ namespace Proyecto_Personal1
             this.textUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.textUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textUsuario.Location = new System.Drawing.Point(361, 226);
+            this.textUsuario.Location = new System.Drawing.Point(481, 278);
+            this.textUsuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textUsuario.Name = "textUsuario";
             this.textUsuario.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.textUsuario.Size = new System.Drawing.Size(189, 31);
+            this.textUsuario.Size = new System.Drawing.Size(251, 37);
             this.textUsuario.TabIndex = 2;
             this.textUsuario.TextChanged += new System.EventHandler(this.textUsuario_TextChanged);
             // 
@@ -72,23 +74,27 @@ namespace Proyecto_Personal1
             this.textContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.textContraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textContraseña.Location = new System.Drawing.Point(361, 306);
+            this.textContraseña.Location = new System.Drawing.Point(481, 377);
+            this.textContraseña.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textContraseña.Name = "textContraseña";
-            this.textContraseña.Size = new System.Drawing.Size(189, 31);
+            this.textContraseña.Size = new System.Drawing.Size(251, 37);
             this.textContraseña.TabIndex = 3;
             this.textContraseña.TextChanged += new System.EventHandler(this.textContraseña_TextChanged);
             // 
             // btnIniciarSesion
             // 
             this.btnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
+            this.btnIniciarSesion.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIniciarSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnIniciarSesion.Location = new System.Drawing.Point(375, 375);
+            this.btnIniciarSesion.Location = new System.Drawing.Point(500, 462);
+            this.btnIniciarSesion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
-            this.btnIniciarSesion.Size = new System.Drawing.Size(150, 43);
+            this.btnIniciarSesion.Size = new System.Drawing.Size(200, 53);
             this.btnIniciarSesion.TabIndex = 4;
             this.btnIniciarSesion.Text = "Iniciar sesión";
+            this.btnIniciarSesion.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
             this.btnIniciarSesion.UseVisualStyleBackColor = false;
             this.btnIniciarSesion.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -98,9 +104,10 @@ namespace Proyecto_Personal1
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnCerrar.Location = new System.Drawing.Point(735, 444);
+            this.btnCerrar.Location = new System.Drawing.Point(980, 546);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnCerrar.Name = "btnCerrar";
-            this.btnCerrar.Size = new System.Drawing.Size(137, 43);
+            this.btnCerrar.Size = new System.Drawing.Size(183, 53);
             this.btnCerrar.TabIndex = 5;
             this.btnCerrar.Text = "Cerrar";
             this.btnCerrar.UseVisualStyleBackColor = false;
@@ -109,9 +116,10 @@ namespace Proyecto_Personal1
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Proyecto_Personal1.Properties.Resources.Candado;
-            this.pictureBox3.Location = new System.Drawing.Point(289, 299);
+            this.pictureBox3.Location = new System.Drawing.Point(385, 368);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(66, 38);
+            this.pictureBox3.Size = new System.Drawing.Size(88, 47);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
@@ -120,9 +128,10 @@ namespace Proyecto_Personal1
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Proyecto_Personal1.Properties.Resources.Persona;
-            this.pictureBox2.Location = new System.Drawing.Point(289, 219);
+            this.pictureBox2.Location = new System.Drawing.Point(385, 270);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(66, 38);
+            this.pictureBox2.Size = new System.Drawing.Size(88, 47);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -131,19 +140,20 @@ namespace Proyecto_Personal1
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Proyecto_Personal1.Properties.Resources.Logo_de_la_empresa_2___copia;
-            this.pictureBox1.Location = new System.Drawing.Point(375, 49);
+            this.pictureBox1.Location = new System.Drawing.Point(500, 60);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(175, 156);
+            this.pictureBox1.Size = new System.Drawing.Size(233, 192);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // FormLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(55)))), ((int)(((byte)(133)))));
-            this.ClientSize = new System.Drawing.Size(884, 499);
+            this.ClientSize = new System.Drawing.Size(1179, 614);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.btnCerrar);
@@ -153,6 +163,7 @@ namespace Proyecto_Personal1
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.lblBienvenido);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormLogin";
             this.Text = "Farmacia Divino Niño";
             this.Load += new System.EventHandler(this.Form1_Load);

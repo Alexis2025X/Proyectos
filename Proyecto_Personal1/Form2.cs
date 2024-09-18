@@ -27,7 +27,9 @@ namespace Proyecto_Personal1
 
         private void btnProveedores_Click(object sender, EventArgs e)
         {
-
+            Proveedores proveedores = new Proveedores();
+            proveedores.Show();
+            this.Close();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -41,8 +43,13 @@ namespace Proyecto_Personal1
 
             // Verifica si el formulario "formularioMenu" está abierto
             
-            FormLogin form1 = new FormLogin();
-            form1.Show();
+          
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Proveedores Proveedores = new Proveedores();
+            Proveedores.Show();
             this.Close();
         }
     }

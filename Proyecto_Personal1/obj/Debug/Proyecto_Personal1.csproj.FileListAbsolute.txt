@@ -9,3 +9,15 @@ C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Pers
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.pdb
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormLogin.resources
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormMenu.resources
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\bin\Debug\Proyecto_Personal1.exe.config
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\bin\Debug\Proyecto_Personal1.exe
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\bin\Debug\Proyecto_Personal1.pdb
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.csproj.AssemblyReference.cache
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormLogin.resources
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormMenu.resources
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.Properties.Resources.resources
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.Proveedores.resources
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.csproj.GenerateResource.cache
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.csproj.CoreCompileInputs.cache
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.exe
+C:\Users\marlo\OneDrive\Documentos\cosas ste\oro\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.pdb
