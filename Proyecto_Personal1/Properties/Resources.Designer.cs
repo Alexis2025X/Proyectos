@@ -73,6 +73,26 @@ namespace Proyecto_Personal1.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Cuentas12 {
+            get {
+                object obj = ResourceManager.GetObject("Cuentas12", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Devoluciones {
+            get {
+                object obj = ResourceManager.GetObject("Devoluciones", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_de_la_empresa_2 {
             get {
                 object obj = ResourceManager.GetObject("Logo de la empresa 2", resourceCulture);

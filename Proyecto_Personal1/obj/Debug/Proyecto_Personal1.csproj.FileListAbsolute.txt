@@ -7,5 +7,5 @@ C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Pers
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.csproj.CoreCompileInputs.cache
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.exe
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.pdb
-C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.Form2.resources
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormLogin.resources
+C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormMenu.resources

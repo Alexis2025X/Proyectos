@@ -10,16 +10,40 @@ using System.Windows.Forms;
 
 namespace Proyecto_Personal1
 {
-    public partial class Form2 : Form
+    public partial class FormMenu : Form
     {
-        public Form2()
+        public FormMenu()
         {
             InitializeComponent();
+
+            
+
         }
 
         private void Form2_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        private void btnProveedores_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+        
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+
+            // Verifica si el formulario "formularioMenu" está abierto
+            
+            FormLogin form1 = new FormLogin();
+            form1.Show();
+            this.Close();
         }
     }
 }

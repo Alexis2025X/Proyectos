@@ -27,22 +27,35 @@ namespace Proyecto_Personal1
 
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void textUsuario_TextChanged(object sender, EventArgs e)
+        {
+          
+        }
+        public void textContraseña_TextChanged(object sender, EventArgs e)
         {
            
-           
         }
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-           
-        }
-
+        
+        
         private void button1_Click(object sender, EventArgs e)
         {
-            
-            Form2 form2 = new Form2();
-            form2.Show();
-
+          if (textUsuario.Text == "Admin" && textContraseña.Text == "123")
+            {
+         
+                textUsuario.Text = "";
+                textContraseña.Text = "";
+                //this.Hide();
+                
+                FormMenu form2 = new FormMenu();
+                // Cierra el formulario de inicio de sesión
+                form2.Show();
+                   
+            }
+          else
+            {
+               
+                //Por ahora no hay nada
+            }
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)

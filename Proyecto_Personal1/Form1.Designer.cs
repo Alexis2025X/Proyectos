@@ -62,9 +62,10 @@ namespace Proyecto_Personal1
             this.textUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textUsuario.Location = new System.Drawing.Point(361, 226);
             this.textUsuario.Name = "textUsuario";
+            this.textUsuario.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textUsuario.Size = new System.Drawing.Size(189, 31);
             this.textUsuario.TabIndex = 2;
-            this.textUsuario.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textUsuario.TextChanged += new System.EventHandler(this.textUsuario_TextChanged);
             // 
             // textContraseña
             // 
@@ -75,7 +76,7 @@ namespace Proyecto_Personal1
             this.textContraseña.Name = "textContraseña";
             this.textContraseña.Size = new System.Drawing.Size(189, 31);
             this.textContraseña.TabIndex = 3;
-            this.textContraseña.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
+            this.textContraseña.TextChanged += new System.EventHandler(this.textContraseña_TextChanged);
             // 
             // btnIniciarSesion
             // 
