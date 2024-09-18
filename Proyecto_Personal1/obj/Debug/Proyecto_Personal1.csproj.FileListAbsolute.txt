@@ -9,3 +9,4 @@ C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Pers
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.pdb
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormLogin.resources
 C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormMenu.resources
+C:\Users\kevin\source\repos\Proyectos\Proyecto_Personal1\obj\Debug\Proyecto_Personal1.FormCuentas.resources

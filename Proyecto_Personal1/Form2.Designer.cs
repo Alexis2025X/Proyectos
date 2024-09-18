@@ -58,7 +58,7 @@ namespace Proyecto_Personal1
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(199)))), ((int)(((byte)(255)))));
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.button2.Location = new System.Drawing.Point(278, 66);
             this.button2.Name = "button2";
@@ -72,7 +72,7 @@ namespace Proyecto_Personal1
             // 
             this.btnCuentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(199)))), ((int)(((byte)(255)))));
             this.btnCuentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCuentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCuentas.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnCuentas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCuentas.Location = new System.Drawing.Point(466, 66);
             this.btnCuentas.Name = "btnCuentas";
@@ -81,12 +81,13 @@ namespace Proyecto_Personal1
             this.btnCuentas.Text = "Cuentas";
             this.btnCuentas.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
             this.btnCuentas.UseVisualStyleBackColor = false;
+            this.btnCuentas.Click += new System.EventHandler(this.btnCuentas_Click);
             // 
             // btnFacturacion
             // 
             this.btnFacturacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(199)))), ((int)(((byte)(255)))));
             this.btnFacturacion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnFacturacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFacturacion.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnFacturacion.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnFacturacion.Location = new System.Drawing.Point(466, 196);
             this.btnFacturacion.Name = "btnFacturacion";
@@ -100,7 +101,7 @@ namespace Proyecto_Personal1
             // 
             this.btnInventario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(199)))), ((int)(((byte)(255)))));
             this.btnInventario.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnInventario.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInventario.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnInventario.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnInventario.Location = new System.Drawing.Point(278, 196);
             this.btnInventario.Name = "btnInventario";
@@ -114,7 +115,7 @@ namespace Proyecto_Personal1
             // 
             this.btnDevoluciones.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(199)))), ((int)(((byte)(255)))));
             this.btnDevoluciones.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnDevoluciones.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDevoluciones.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnDevoluciones.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnDevoluciones.Location = new System.Drawing.Point(466, 329);
             this.btnDevoluciones.Name = "btnDevoluciones";
@@ -128,7 +129,7 @@ namespace Proyecto_Personal1
             // 
             this.btnVentas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(199)))), ((int)(((byte)(255)))));
             this.btnVentas.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnVentas.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnVentas.Font = new System.Drawing.Font("Calibri", 15.75F, System.Drawing.FontStyle.Bold);
             this.btnVentas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnVentas.Location = new System.Drawing.Point(278, 329);
             this.btnVentas.Name = "btnVentas";
@@ -141,11 +142,11 @@ namespace Proyecto_Personal1
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(396, 9);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(116, 42);
+            this.label1.Size = new System.Drawing.Size(111, 45);
             this.label1.TabIndex = 13;
             this.label1.Text = "Menú";
             // 

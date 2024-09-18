@@ -46,11 +46,11 @@ namespace Proyecto_Personal1
             // lblBienvenido
             // 
             this.lblBienvenido.AutoSize = true;
-            this.lblBienvenido.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblBienvenido.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblBienvenido.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.lblBienvenido.Location = new System.Drawing.Point(369, 13);
+            this.lblBienvenido.Location = new System.Drawing.Point(372, 10);
             this.lblBienvenido.Name = "lblBienvenido";
-            this.lblBienvenido.Size = new System.Drawing.Size(195, 33);
+            this.lblBienvenido.Size = new System.Drawing.Size(178, 36);
             this.lblBienvenido.TabIndex = 0;
             this.lblBienvenido.Text = "Bienvenido/a";
             this.lblBienvenido.Click += new System.EventHandler(this.label1_Click);
@@ -59,30 +59,32 @@ namespace Proyecto_Personal1
             // 
             this.textUsuario.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.textUsuario.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textUsuario.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textUsuario.Location = new System.Drawing.Point(361, 226);
             this.textUsuario.Name = "textUsuario";
             this.textUsuario.ScrollBars = System.Windows.Forms.ScrollBars.Both;
             this.textUsuario.Size = new System.Drawing.Size(189, 31);
             this.textUsuario.TabIndex = 2;
+            this.textUsuario.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textUsuario.TextChanged += new System.EventHandler(this.textUsuario_TextChanged);
             // 
             // textContraseña
             // 
             this.textContraseña.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.textContraseña.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.textContraseña.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textContraseña.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.textContraseña.Location = new System.Drawing.Point(361, 306);
             this.textContraseña.Name = "textContraseña";
             this.textContraseña.Size = new System.Drawing.Size(189, 31);
             this.textContraseña.TabIndex = 3;
+            this.textContraseña.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.textContraseña.TextChanged += new System.EventHandler(this.textContraseña_TextChanged);
             // 
             // btnIniciarSesion
             // 
             this.btnIniciarSesion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.btnIniciarSesion.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnIniciarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnIniciarSesion.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnIniciarSesion.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnIniciarSesion.Location = new System.Drawing.Point(375, 375);
             this.btnIniciarSesion.Name = "btnIniciarSesion";
@@ -96,7 +98,7 @@ namespace Proyecto_Personal1
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(160)))), ((int)(((byte)(255)))));
             this.btnCerrar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.btnCerrar.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCerrar.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Bold);
             this.btnCerrar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btnCerrar.Location = new System.Drawing.Point(735, 444);
             this.btnCerrar.Name = "btnCerrar";
@@ -154,6 +156,7 @@ namespace Proyecto_Personal1
             this.Controls.Add(this.lblBienvenido);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "FormLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Farmacia Divino Niño";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();

@@ -45,5 +45,12 @@ namespace Proyecto_Personal1
             form1.Show();
             this.Close();
         }
+
+        private void btnCuentas_Click(object sender, EventArgs e)
+        {
+            FormCuentas form3 = new FormCuentas();
+            form3.Show();
+            this.Close();
+        }
     }
 }
