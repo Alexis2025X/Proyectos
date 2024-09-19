@@ -133,7 +133,7 @@ namespace Proyecto_Personal1
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Proyecto_Personal1.Properties.Resources.Logo_de_la_empresa_2___copia;
-            this.pictureBox1.Location = new System.Drawing.Point(375, 49);
+            this.pictureBox1.Location = new System.Drawing.Point(378, 49);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(175, 156);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
