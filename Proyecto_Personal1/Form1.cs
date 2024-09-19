@@ -45,6 +45,7 @@ namespace Proyecto_Personal1
                 textUsuario.Text = "";
                 textContraseña.Text = "";
                 //this.Hide();
+                //this.Close();
                 
                 FormMenu form2 = new FormMenu();
                 // Cierra el formulario de inicio de sesión
@@ -66,6 +67,7 @@ namespace Proyecto_Personal1
         private void button2_Click(object sender, EventArgs e)
         {
             Close();
+            
         }
 
         private void pictureBox3_Click(object sender, EventArgs e)
