@@ -49,7 +49,7 @@ namespace Proyecto_Personal1
             // 
             this.lblProveedores.AutoSize = true;
             this.lblProveedores.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblProveedores.Location = new System.Drawing.Point(474, 9);
+            this.lblProveedores.Location = new System.Drawing.Point(434, 30);
             this.lblProveedores.Name = "lblProveedores";
             this.lblProveedores.Size = new System.Drawing.Size(246, 44);
             this.lblProveedores.TabIndex = 3;
